@@ -1,0 +1,12 @@
+tasks:
+
+* Rui: push stable versions of your addons into nvda community team.
+* Beqa: review Rui's addons and see if anything can be improved.
+
+
+toDiscuss:
+
+* Idealy documentation should only be written once.
+Can the addon use the po files that the ikiwiki creates?
+
+
