@@ -1,12 +1,15 @@
-tasks:
+# outstanding #
 
 * Rui: push stable versions of your addons into nvda community team.
 * Beqa: review Rui's addons and see if anything can be improved.
+* Mesar, write scripts to integrate with translator workflow and the community addon website.
+* When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
 
 
-toDiscuss:
+# toDiscuss #
 
-* Idealy documentation should only be written once.
-Can the addon use the po files that the ikiwiki creates?
+*   Should we setup a mailing list? nvda-addons@freelists.org Where we can discuss and where people can get the review for their addon, or best to keep it on the dev list?
+*   Idealy documentation should only be written once, and accessed both from the web and from nvda itself.
+    * for each addon, can we have <addonName> in the nvda helpmenu, which will open the html documentation in the current nvda language, and if that language is not available we open the english html file.
 
 
