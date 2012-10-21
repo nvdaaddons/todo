@@ -1,16 +1,16 @@
 # outstanding #
 
-* Rui: push stable versions of your addons into nvda community team.
-* Beqa: review Rui's addons and see if anything can be improved.
-* Mesar, write scripts to integrate with translator workflow and the community addon website.
 * When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
+* Mesar, write scripts to integrate with translator workflow and the community addon website.
+
 * @Rui addon-template scons, can it check the encoding of all manifest.ini files are either ascii or utf8 encoded? People have reported problems installing when it is latin1/some other codepage.
 
 
 # toDiscuss #
 
-*   Should we setup a mailing list? nvda-addons@freelists.org Where we can discuss and where people can get the review for their addon, or best to keep it on the dev list?
-*   Idealy documentation should only be written once, and accessed both from the web and from nvda itself.
-    * for each addon, can we have <addonName> in the nvda helpmenu, which will open the html documentation in the current nvda language, and if that language is not available we open the english html file.
+* Idealy documentation should only be written once, and accessed both 
+from the web and from nvda itself.
+@Rui what needs to be done on my side?
+
 
 
