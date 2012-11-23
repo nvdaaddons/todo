@@ -3,7 +3,6 @@
 * When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
 * Mesar, write scripts to integrate with translator workflow and the community addon website.
 
-* @Rui addon-template scons, can it check the encoding of all manifest.ini files are either ascii or utf8 encoded? People have reported problems installing when it is latin1/some other codepage.
 
 
 # toDiscuss #
