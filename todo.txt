@@ -2,6 +2,7 @@
 
 * When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
 * Mesar, write scripts to integrate with translator workflow and the community addon website.
+beqa: review resource monitor, teamtalk and ventrilo addons.
 
 
 
