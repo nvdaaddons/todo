@@ -3,7 +3,7 @@
 * When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
 * Mesar, write scripts to integrate with translator workflow and the community addon website.
 * beqa, review resource monitor, teamtalk, ventrilo, apolo2 and unicode-braille-input addons.
-
+* Joseph, check translator comments.
 
 
 # toDiscuss #
@@ -11,6 +11,6 @@
 * Idealy documentation should only be written once, and accessed both 
 from the web and from nvda itself.
 @Rui what needs to be done on my side?
-
+* JL: Mesar suggests coming up with guidelines for new add-on contributors.
 
 
