@@ -1,16 +1,30 @@
+
+
+in the following:
+bitNVDA=http://bitbucket.org/nvdaaddonteam
+
 # outstanding #
 
 * When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
-* Mesar, write scripts to integrate with translator workflow and the community addon website.
-* beqa, review resource monitor, teamtalk, ventrilo, apolo2 and unicode-braille-input addons.
+* beqa, review teamtalk, ventrilo and  apolo2.
 * Joseph, check translator comments.
 
 
-# toDiscuss #
+# To Discuss #
 
 * Idealy documentation should only be written once, and accessed both 
 from the web and from nvda itself.
 @Rui what needs to be done on my side?
 * JL: Mesar suggests coming up with guidelines for new add-on contributors.
 
+
+# Historical/notes #
+
+* Mesar, write scripts to integrate with translator workflow and the community addon website.
+** When an addon is added to bitNVDA/addon-files it will automatically be available for download.
+** Addon pot files are merged into po files every mon/thu, just like main nvda.po.
+** po files from translators are merged back into addons at the middle and end of each month, like what we do with nvda.
+** We need to check nvda/srt/website/addon/addon.mdwn and nvda/addons/{addonName}/readme.mdwn are the same by hand, potentially list new languages that have been added.
+
+* beqa, mesar, review resource monitor and unicode-braille-input addons.
 
