@@ -1,4 +1,6 @@
-# Addon guide line#
+# Add-on guidelines #
+
+The following is a set of guidelines that current and potential add-on authors should use when writing add-ons:
 
 ## General ##
 
@@ -24,7 +26,7 @@ development for the next version, i.e. 3.1-dev.
 
 ## Coding Style ##
 
-1.. Indent with either 4 spaces or 1 tab.
+1. Indent with either 4 spaces or 1 tab.
 2. All messages presented to the user should be translatable, if we are 
 the creator of the message.
 3. messages containing multiple '%s' or %'d' or are of the form
@@ -32,3 +34,8 @@ the creator of the message.
 4. Translatable messages should have a translator comment to explain 
 where/when the message is presented, so that the translator can test the 
 message easily when s/he installs the addon.
+
+## Documentation and key bindings ##
+
+1. If you are adding new keyboard commands as part of your add-on, be sure to consult NVDA Command Quick Reference and commands for other add-ons before assigning a new command.
+2. Please provide a readme file listing changes between versions, shortcut keys (if any) and usage notes and other information.
