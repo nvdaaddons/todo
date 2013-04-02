@@ -16,20 +16,21 @@ Dashes in names are currently not supported by the automated system.
 
 ## Versioning ##
 1. Use major dot minor revision, example: 1.0, 1.1 etc.
-2. when new functionality is added, update major revision, i.e. 2.0, 
+2. When new functionality is added, update major revision, i.e. 2.0, 
 3.0.
 3. When making a release that has only translation updates, update the 
 minor revision, 3.1, 3.2 etc, add the new languages to the readme.mdown.
 4. git tag the release.
-5. After making a release update the revision to indicate that its under 
-development for the next version, i.e. 3.1-dev.
+5. After making a release, update the version to indicate that its under development for the next version, i.e. 3.1-dev.
+6. Releases should be made no closer than 2 weeks apart, to allow translators to do their work, unless fixing a chritical/showstopper bug.
+7. Announce the availibility of the new version on mailinglists.
 
 ## Coding Style ##
 
 1. Indent with either 4 spaces or 1 tab.
 2. All messages presented to the user should be translatable, if we are 
 the creator of the message.
-3. messages containing multiple '%s' or %'d' or are of the form
+3. Messages containing multiple '%s' or %'d' or are of the form
 "%(name)s .. %(name2)s" should be rewritten to _("{name1} .. {name2}").format(name1=v1, name2=v2)
 4. Translatable messages should have a translator comment to explain 
 where/when the message is presented, so that the translator can test the 
@@ -37,5 +38,5 @@ message easily when s/he installs the addon.
 
 ## Documentation and key bindings ##
 
-1. If you are adding new keyboard commands as part of your add-on, be sure to consult NVDA Command Quick Reference and commands for other add-ons before assigning a new command.
-2. Please provide a readme file listing changes between versions, shortcut keys (if any) and usage notes and other information.
+1. If you are adding new keyboard commands as part of your add-on, be sure to consult NVDA Command Quick Reference and other community supported add-on commands before assigning a new command.
+2. Please provide a readme file listing changes between versions, shortcut keys (if any) and usage notes and other information, see one of the other git repos for examples.
