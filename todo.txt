@@ -15,7 +15,6 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 * Idealy documentation should only be written once, and accessed both 
 from the web and from nvda itself.
 @Rui what needs to be done on my side?
-* JL: Mesar suggests coming up with guidelines for new add-on contributors.
 
 
 # Historical/notes #
