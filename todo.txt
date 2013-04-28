@@ -6,7 +6,7 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 # outstanding #
 
 * When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
-* beqa, review teamtalk, ventrilo and  apolo2.
+* beqa, review teamtalk, ventrilo, apolo2, placeMarkers and windows7Magnifier.
 * Joseph, check translator comments.
 
 
