@@ -1,4 +1,4 @@
-
+# Todo list for NVDA Addon Team #
 
 in the following:
 bitNVDA=http://bitbucket.org/nvdaaddonteam
@@ -7,7 +7,7 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 * When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
 * beqa, review teamtalk, ventrilo, apolo2, placeMarkers and windows7Magnifier.
-* Joseph, check translator comments.
+* Joseph, check translator comments and maintain Control Usage Assistant.
 
 
 # To Discuss #
