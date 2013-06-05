@@ -5,9 +5,10 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
 
-* When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
+* The add-ons mailing list created, invitations will be sent to other add-on writers soon.
 * beqa, review teamtalk, ventrilo, apolo2, placeMarkers and windows7Magnifier.
-* Joseph, check translator comments and maintain Control Usage Assistant.
+* Joseph, check translator comments, check translatable messages for place markers and maintain Control Usage Assistant.
+* Derek, help out with translatable string review for place markers.
 
 
 # To Discuss #
@@ -19,6 +20,7 @@ from the web and from nvda itself.
 
 # Historical/notes #
 
+* When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
 * Mesar, write scripts to integrate with translator workflow and the community addon website.
 ** When an addon is added to bitNVDA/addon-files it will automatically be available for download.
 ** Addon pot files are merged into po files every mon/thu, just like main nvda.po.
