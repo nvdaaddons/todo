@@ -5,21 +5,18 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
 
-* The add-ons mailing list created, invitations will be sent to other add-on writers soon.
-* beqa, review teamtalk, ventrilo, apolo2, placeMarkers and windows7Magnifier.
-* Joseph, check translator comments, check translatable messages for place markers and maintain Control Usage Assistant.
-* Derek, help out with translatable string review for place markers.
-
+* Pending review: controlUsageAssistant, teamtalk, ventrilo, apolo2, windows7Magnifier, Focus Highlight
+* Idealy documentation should only be written once, and accessed both 
+from the web and from nvda itself.
+Good discussion with nolia on addon list, some code already in addon template, code on 2694, needs final review and the  code belongs in core nvda.
+* Joseph, finnish nvda core translator comments, Mesar to review.
 
 # To Discuss #
 
-* Idealy documentation should only be written once, and accessed both 
-from the web and from nvda itself.
-@Rui what needs to be done on my side?
-
-
 # Historical/notes #
 
+* Derek, review translatable strings for place markers.
+* The add-ons mailing list has been created, and the list has been widely publisized.
 * When we know the system works well for one or two addons, we should write an announcement/invitation for people to submit addons.
 * Mesar, write scripts to integrate with translator workflow and the community addon website.
 ** When an addon is added to bitNVDA/addon-files it will automatically be available for download.
