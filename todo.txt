@@ -5,11 +5,10 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
 
-* Pending review: controlUsageAssistant, teamtalk, ventrilo, apolo2, windows7Magnifier, Focus Highlight
+* Pending review: controlUsageAssistant, teamtalk, ventrilo, apolo2, windows7Magnifier, Focus Highlight, eMule
 * Idealy documentation should only be written once, and accessed both 
-from the web and from nvda itself.
-Good discussion with nolia on addon list, some code already in addon template, code on 2694, needs final review and the  code belongs in core nvda.
-* Joseph, finnish nvda core translator comments, Mesar to review.
+from the web and from nvda itself, Nolia, please see Jamies last comment on #2694
+* Joseph, finnish nvda core translator comments #1410
 
 # To Discuss #
 
