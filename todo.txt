@@ -5,15 +5,15 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
 
-* Pending review: controlUsageAssistant, teamtalk, ventrilo, apolo2, windows7Magnifier, Focus Highlight, eMule
-* Idealy documentation should only be written once, and accessed both 
-from the web and from nvda itself.
-* Joseph, finish nvda core translator comments #1410
+* Pending review: controlUsageAssistant, teamtalk, ventrilo, apolo2, windows7Magnifier, eMule, bit che, ReadFeeds, googleSpeechRecognition
 
 # To Discuss #
 
 # Historical/notes #
 
+* Idealy documentation should only be written once, and accessed both 
+from the web and from nvda itself.
+Done thanks to addon template.
 * Noelia, see Jamies last comment on #2694.
 * Derek, review translatable strings for place markers.
 * The add-ons mailing list has been created, and the list has been widely publisized.
