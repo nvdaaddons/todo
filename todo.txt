@@ -11,6 +11,7 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # Historical/notes #
 
+* Let commit emails go to a commit list, rather than to the nvda-addons discussion mailing list.
 * Idealy documentation should only be written once, and accessed both 
 from the web and from nvda itself.
 Done thanks to addon template.
