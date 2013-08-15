@@ -6,13 +6,13 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 # outstanding #
 
 * Pending review: controlUsageAssistant, teamtalk, ventrilo, apolo2, windows7Magnifier, eMule, bit che, ReadFeeds, googleSpeechRecognition
-* document where the prefered path of addon config files should be saved in guidelines document.
-The new path allows for addons to be used while running temp copy of nvda or something like that.
 
 # To Discuss #
 
 # Historical/notes #
 
+* document where the prefered path of addon config files should be saved in guidelines document.
+The new path allows for addons to be used while running temp copy of nvda or something like that.
 * Let commit emails go to a commit list, rather than to the nvda-addons discussion mailing list.
 * Idealy documentation should only be written once, and accessed both 
 from the web and from nvda itself.

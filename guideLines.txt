@@ -15,29 +15,32 @@ examples: "word", "dropbox", "extendedWinamp", "resourceMonitor" or
 Dashes in names are currently not supported by the automated system.
 
 ## Versioning ##
+
 1. Use major dot minor revision, example: 1.0, 1.1 etc.
-2. When new functionality is added, update major revision, i.e. 2.0, 
-3.0.
-3. When making a release that has only translation updates, update the 
-minor revision, 3.1, 3.2 etc, add the new languages to the readme.md.
+2. When new functionality is added, update major revision, i.e. 2.0, 3.0.
+3. When making a release that has only translation updates, update the minor revision, 3.1, 3.2 etc, add the new languages to the readme.md.
 4. git tag the release, note special git push for tags.
-5. After making a release, update the version to indicate that its under development for the next version, i.e. 3.1-dev.
+5. After making a release, update the version to indicate that its under development for the next version, i.e. 3.1-dev. Note this means that the version number should only be 3.0 for a few minutes, and should be changed to  3.1-dev to indicate new development. The version number can be changed from 3.1-dev to 4.0-dev if/when new features are added.
 6. Releases should be made no closer than 2 weeks apart, to allow translators to do their work, unless fixing a chritical/showstopper bug.
 7. Announce the availibility of the new version on various NVDA mailing lists (e.g. NVDA add-ons list).
 
 ## Coding Style ##
 
 1. Indent with either 4 spaces or 1 tab.
-2. All messages presented to the user should be translatable, if we are 
-the creator of the message.
+2. All messages presented to the user should be translatable, if we are the creator of the message.
 3. Messages containing multiple '%s' or %'d' or are of the form
 "%(name)s .. %(name2)s" should be rewritten to _("{name1} .. {name2}").format(name1=v1, name2=v2)
-4. Translatable messages should have a translator comment to explain 
-where/when the message is presented, so that the translator can test the 
-message easily when s/he installs the addon.
-5. When working on a new or modifying a major feature, create/use branches other than master branch, as it helps merging and code review (via pull request) process and to find bugs easily.
+4. Translatable messages should have a translator comment to explain where/when the message is presented, so that the translator can test the  message easily when s/he installs the addon.
+5. If your addon needs to store any configuration:
+    # dont use:
+    config_file = os.path.join(config.getUserDefaultConfigPath(),"addonName.ini")
+    # do use:
+    config_file = os.path.join(globalVars.appArgs.configPath,"addonName.ini")
+6. When working on a new or modifying a major feature, create/use branches other than master branch, as it helps merging and code review (via pull request) process and to find bugs easily.
 
 ## Documentation and key bindings ##
 
 1. If you are adding new keyboard commands as part of your add-on, be sure to consult NVDA Command Quick Reference and other community supported add-on commands before assigning a new command.
 2. Please provide a readme.md file listing changes between versions, shortcut keys (if any) and usage notes and other information, see one of the other git repos for examples.
+3. Files addon/doc/*/readme.md should not be translated by hand and committed to the repositry, but should be generated and committed from the translation system.
+4. If you translate an addon to your language and commit to git, please inform your nvda translation maintainer for your language so that work is not duplicated, in any case it is better to keep translations on the translation system.
