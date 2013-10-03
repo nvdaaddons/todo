@@ -11,6 +11,8 @@ The new path allows for addons to be used while running temp copy of nvda or som
 
 # To Discuss #
 
+* Script category: should we use categories from NVDA core, define our own or use add-on name?
+
 # Historical/notes #
 
 * Let commit emails go to a commit list, rather than to the nvda-addons discussion mailing list.
