@@ -20,10 +20,14 @@ Dashes in names are currently not supported by the automated system.
 2. When new functionality is added, update major revision, i.e. 2.0, 3.0.
 3. When making a release that has only translation updates, update the minor revision, 3.1, 3.2 etc, add the new languages to the readme.md.
 4. git tag the release, note special git push for tags.
-5. If you know that you will be making changes to both old and new major versions, use a separate maintenance branch for the old version (e.g. 1.x, 2.x, etc.) with the maintenance release commited from the old version branch. Then merge the old changes to the new major version.
-6. After making a release (and generating the add-on installation package), update the version to indicate that its under development for the next version, i.e. 3.1-dev. Note this means that the version number should only be 3.0 for a few minutes, and should be changed to  3.1-dev to indicate new development. The version number can be changed from 3.1-dev to 4.0-dev if/when new features are added.
-7. Releases should be made no closer than 2 weeks apart, to allow translators to do their work, unless fixing a chritical/showstopper bug.
-8. Announce the availibility of the new version on various NVDA mailing lists (e.g. NVDA add-ons list).
+
+## Release process ##
+
+1. After releasing an add-on version, if you know that you will be making changes to both old and new major versions, use a separate maintenance branch for the old version (e.g. 1.x, 2.x, etc.) with the maintenance release commited from the old version branch. Then merge the old changes to the new major version.
+2. After making a stable release (and generating the add-on installation package), update the version to indicate that its under development for the next version, i.e. 3.1-dev. Note this means that the version number should only be 3.0 for a few minutes, and should be changed to  3.1-dev to indicate new development. The version number can be changed from 3.1-dev to 4.0-dev if/when new features are added.
+3. A stable release (such as 1.0, 2.0, 2.1, etc.) should be posted as a stable add-on, provided that there are no critical bugs reported within the past two weeks after the last commit. An add-on (or a version of an add-on) under active development and for which regular commits are made should be listed as a development add-on for testing by users.
+4. Stable releases should be made no closer than 2 weeks apart, to allow translators to do their work, unless fixing a chritical/showstopper bug.
+5. Announce the availibility of the new version on various NVDA mailing lists (e.g. NVDA add-ons list).
 
 ## Coding Style ##
 
