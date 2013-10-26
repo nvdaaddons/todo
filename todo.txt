@@ -9,10 +9,9 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # To Discuss #
 
-* Script category: should we use categories from NVDA core, define our own or use add-on name?
-
 # Historical/notes #
 
+* Script category: use NVDA core categories if an add-on enhances the functionality of NVDA such as adding shortcuts to preferences dialogs; use add-on name if the add-on adds misc features such as system information.
 * document where the prefered path of addon config files should be saved in guidelines document.
 The new path allows for addons to be used while running temp copy of nvda or something like that.
 * Let commit emails go to a commit list, rather than to the nvda-addons discussion mailing list.
