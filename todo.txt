@@ -11,6 +11,9 @@ Pending review/action:
 * ReadFeeds, latest template, input gesture category, provide for translators.
 * googleSpeechRecognition, input gesture category.
 * controlUsageAssistant, ?
+* VirtualRevision, fix newline problem, update template, input gesture category, make available for translators.
+* Instant translate, accept patch for swapping languages, addon template, input gesture category, make available for translators.
+* systraylist, Rui fixed a bug, what was it/needs documenting? update template, input gesture category.
 * Tree View Navigation vs TreeSpy
   How are they different? can the functionality be merged?
   https://ABuffEr@bitbucket.org/ABuffEr/treeviewnavigation.git
