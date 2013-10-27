@@ -5,7 +5,40 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
 
-* Pending review: controlUsageAssistant, teamtalk, ventrilo, apolo2, windows7Magnifier, eMule, bit che, ReadFeeds, googleSpeechRecognition
+Pending review/action:
+* windows7Magnifier, Update to latest template, input gesture category.
+* bit che, update to latest template, provide for translation.
+* ReadFeeds, latest template, input gesture category, provide for translators.
+* googleSpeechRecognition, input gesture category.
+* controlUsageAssistant, ?
+* Tree View Navigation vs TreeSpy
+  How are they different? can the functionality be merged?
+  https://ABuffEr@bitbucket.org/ABuffEr/treeviewnavigation.git
+  treeSpy not posted yet.
+* audibledownloadmanager, ?
+  https://bitbucket.org/dave090679/audibledownloadmanager
+* realtek hd audio manager,  ?
+  https://bitbucket.org/dave090679/realtek_hd_audio_manager
+* trackbar_routing, ?
+  https://bitbucket.org/dave090679/trackbar_routing
+* Balloon history, ?
+  http://web.radiolavila.es/download/file/fid/38
+* Web Hotspots, how is this different from placeMarkers?
+  http://web.radiolavila.es/download/file/fid/39
+* Speech mode beeps omiter, how is this different from NoBeepsSpeechMode?
+  http://web.radiolavila.es/download/file/fid/42
+* FileReader, what is this, how is it different from opening a text editor or winamp?
+  http://web.radiolavila.es/download/file/fid/44
+* Document percentage, maybe merge with Jump to line and WordCount?
+  http://web.radiolavila.es/download/file/fid/45
+  http://web.radiolavila.es/download/file/fid/46
+  http://web.radiolavila.es/download/file/fid/41
+* NVSettings, what are the advantages of this over the new nvda profiles?
+  http://web.radiolavila.es/download/file/fid/51
+* teamtalk, ?
+* ventrilo, ?
+* apolo2, ?
+
 
 # To Discuss #
 
