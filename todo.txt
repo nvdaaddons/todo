@@ -36,7 +36,7 @@ Pending review/action:
   http://web.radiolavila.es/download/file/fid/45
   http://web.radiolavila.es/download/file/fid/46
   http://web.radiolavila.es/download/file/fid/41
-* NVSettings, what are the advantages of this over the new nvda profiles?
+* NVSettings, what are the advantages of this over the new nvda profiles? May need more code documentation, coding style updates, update to latest template, translator comments needed.
   http://web.radiolavila.es/download/file/fid/51
 * teamtalk, ?
 * ventrilo, ?
