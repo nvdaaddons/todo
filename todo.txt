@@ -8,7 +8,7 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 Pending review/action:
 * windows7Magnifier, Update to latest template, input gesture category.
 * bit che, update to latest template, provide for translation.
-* ReadFeeds, latest template, input gesture category, provide for translators.
+* ReadFeeds, provide for translators.
 * googleSpeechRecognition, input gesture category.
 * controlUsageAssistant, ?
 * VirtualRevision, fix newline problem, update template, input gesture category, make available for translators.
