@@ -8,7 +8,8 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 Pending review/action:
 * Goldwave: ?
 * windows7Magnifier, Update to latest template, input gesture category.
-* bit che, update to latest template, provide for translation.
+* bit che, check documentation, provide for translation.
+* dropbox, input gesture category
 * ReadFeeds, provide for translators.
 * googleSpeechRecognition, input gesture category.
 * controlUsageAssistant, ?
