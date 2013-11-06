@@ -6,6 +6,7 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 # outstanding #
 
 Pending review/action:
+* Goldwave: ?
 * windows7Magnifier, Update to latest template, input gesture category.
 * bit che, update to latest template, provide for translation.
 * ReadFeeds, provide for translators.
