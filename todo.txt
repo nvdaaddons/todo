@@ -11,10 +11,10 @@ Pending review/action:
 * bit che, check documentation, provide for translation.
 * dropbox, input gesture category
 * ReadFeeds, provide for translators.
-* googleSpeechRecognition, input gesture category.
+* googleSpeechRecognition, ?
 * controlUsageAssistant, ?
 * VirtualRevision, fix newline problem, update template, input gesture category, make available for translators.
-* Instant translate, accept patch for swapping languages, addon template, input gesture category, make available for translators.
+* Instant translate, addon template, make available for translators.
 * systraylist, Rui fixed a bug, what was it/needs documenting? update template, input gesture category.
 * Tree View Navigation vs TreeSpy
   How are they different? can the functionality be merged?
