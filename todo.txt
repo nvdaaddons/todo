@@ -19,7 +19,7 @@ Pending review/action:
 * Tree View Navigation vs TreeSpy
   How are they different? can the functionality be merged?
   https://ABuffEr@bitbucket.org/ABuffEr/treeviewnavigation.git
-  treeSpy not posted yet.
+  https://github.com/cromarty/nvda-treespy.git
 * audibledownloadmanager, ?
   https://bitbucket.org/dave090679/audibledownloadmanager
 * realtek hd audio manager,  ?
