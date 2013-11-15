@@ -30,7 +30,7 @@ Pending review/action:
   http://web.radiolavila.es/download/file/fid/38
 * Web Hotspots, how is this different from placeMarkers?
   http://web.radiolavila.es/download/file/fid/39
-* Speech mode beeps omiter, how is this different from NoBeepsSpeechMode?
+* Speech mode beeps omiter, same functionality as NoBeepsSpeechMode
   http://web.radiolavila.es/download/file/fid/42
 * FileReader, what is this, how is it different from opening a text editor or winamp?
   http://web.radiolavila.es/download/file/fid/44
