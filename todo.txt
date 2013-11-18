@@ -8,17 +8,16 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 Pending review/action:
 * Goldwave: ?
 * windows7Magnifier, input gesture category, config validation routine rewrite requested (NvDA core #3632).
-* bit che, check documentation, provide for translation.
+* bit che, provide for translation.
 * dropbox, input gesture category
 * ReadFeeds, provide for translators.
 * googleSpeechRecognition, ?
 * controlUsageAssistant, ?
-* VirtualRevision, fix newline problem, update template, input gesture category, make available for translators.
+* VirtualRevision, fix newline problem, make available for translators.
 * Instant translate, addon template, make available for translators.
 * systraylist, Rui fixed a bug, what was it/needs documenting? update template, input gesture category.
-* Tree View Navigation vs TreeSpy
-  How are they different? can the functionality be merged?
-  https://ABuffEr@bitbucket.org/ABuffEr/treeviewnavigation.git
+* Tree View Navigation (for users) vs TreeSpy /(for developers)
+    https://ABuffEr@bitbucket.org/ABuffEr/treeviewnavigation.git
   https://github.com/cromarty/nvda-treespy.git
 * audibledownloadmanager, ?
   https://bitbucket.org/dave090679/audibledownloadmanager
@@ -32,7 +31,7 @@ Pending review/action:
   http://web.radiolavila.es/download/file/fid/39
 * Speech mode beeps omiter, same functionality as NoBeepsSpeechMode
   http://web.radiolavila.es/download/file/fid/42
-* FileReader, what is this, how is it different from opening a text editor or winamp?
+* FileReader, play audio and read files without a window on a screen.
   http://web.radiolavila.es/download/file/fid/44
 * Document percentage, maybe merge with Jump to line and WordCount?
   http://web.radiolavila.es/download/file/fid/45
