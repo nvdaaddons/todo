@@ -7,7 +7,7 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 Pending review/action:
 * Goldwave: ?
-* windows7Magnifier, input gesture category, config validation routine rewrite requested (NvDA core #3632).
+* windows7Magnifier, config validation routine rewrite requested (NvDA core #3632).
 * bit che, provide for translation.
 * dropbox, input gesture category
 * ReadFeeds, provide for translators.
