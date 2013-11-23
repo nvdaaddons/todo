@@ -1,16 +1,22 @@
 # Getting all nvda addon team repositories #
 
 If you are a community team reviewer, or want to learn how addons are written, you probably want to bulk clone or manage the available repositories.
+There are two ways of doing so at the moment, documented below.
 
-At the moment, there are two ways of doing this, documented below.
+But first, to reduce the amount of times that you have to enter your username/password, it is recommended that you set up an ssh key and associate it with your account.
+To do so, please follow the steps outlined at:
+https://confluence.atlassian.com/display/BITBUCKET/Set+up+SSH+for+Git
+
 
 ## Using mr, myRepositories ##
+
+This assumes that you have setup and associated an ssh key with your account.
 
 
 ### Get and install Perl ###
 
-If you are using cygwin, you probably have perl already installed, if you are using git bash, you can download and install perl here[1].
-After running the windows executable you probably need to add the pearl binaries directory to your system path variable.
+If you are using cygwin, you probably have perl already installed, if you are using git bash, you can download and install perl from http://www.perl.org/get.html
+When running the install, make sure you check the checkbox for adding perl to the system path.
 
 To check that perl is correctly working from the terminal, you can type:
 
@@ -50,13 +56,21 @@ Now we need to tell mr to trust this downloaded config and run it.
     echo `pwd`/.mrconfig >>~/.mrtrust
     echo "[`pwd`]" >>~/.mrconfig
     echo "chain = true" >>~/.mrconfig
+    echo "update = echo" >>~/.mrconfig
+    echo "checkout = echo" >>~/.mrconfig
 
-## Using bash scripts ##
+### Using mr ###
 
-**insert documentation here**
+now running mr update anywhere should update your enabled repos, or if you are already inside a git repo it will update just this repo.
+For more information, read the mr perl script, which is well documented.
+The mr home page is: http://myrepos.branchable.com/
 
 
+## Using python and bat scripts ##
 
+**Alberto, please insert documentation here**
 
+## help ##
 
-[1]: http://www.perl.org/get.html
+If something listed in this document doesn't work for you or you have additional tips or ideas for enhancement, please modify this document and/or discuss them on the addon list.
+
