@@ -1,0 +1,62 @@
+# Getting all nvda addon team repositories #
+
+If you are a community team reviewer, or want to learn how addons are written, you probably want to bulk clone or manage the available repositories.
+
+At the moment, there are two ways of doing this, documented below.
+
+## Using mr, myRepositories ##
+
+
+### Get and install Perl ###
+
+If you are using cygwin, you probably have perl already installed, if you are using git bash, you can download and install perl here[1].
+After running the windows executable you probably need to add the pearl binaries directory to your system path variable.
+
+To check that perl is correctly working from the terminal, you can type:
+
+    perl --version
+
+If everything went according to plan then you should see the perl version number.
+
+### Getting the mr script ###
+
+In the terminal download the mr perl script, and move it to a directory in the path.
+
+    wget https://raw.github.com/mhameed/myrepos/master/mr
+    mv mr /usr/bin/
+
+To check that mr is working, now type:
+
+    mr --version
+
+Note: this version is needed, because it contains a fix to a bug in the official version.
+
+@mhameed, update url when patch has been accepted.
+
+ 
+### Setting up the directory structure ###
+
+Now create a directory on one of your partitions, which is easely reachable, and does not have a space in its path.
+something like:
+
+    c:\nvdaSources\
+
+Navigate to the directory using the cygwin or git bash terminal, and clone the addon team configuration repo.
+
+    git clone https://bitbucket.org/nvdaaddonteam/nvda-mrconfig .
+
+Now we need to tell mr to trust this downloaded config and run it.
+
+    echo `pwd`/.mrconfig >>~/.mrtrust
+    echo "[`pwd`]" >>~/.mrconfig
+    echo "chain = true" >>~/.mrconfig
+
+## Using bash scripts ##
+
+**insert documentation here**
+
+
+
+
+
+[1]: http://www.perl.org/get.html
