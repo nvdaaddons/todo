@@ -28,7 +28,7 @@ If everything went according to plan then you should see the perl version number
 
 In the terminal download the mr perl script, and move it to a directory in the path.
 
-    wget https://raw.github.com/mhameed/myrepos/master/mr
+    curl -o mr https://raw.github.com/mhameed/myrepos/master/mr
     mv mr /usr/bin/
 
 To check that mr is working, now type:
