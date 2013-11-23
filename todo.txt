@@ -9,9 +9,10 @@ Pending review/action:
 * Goldwave: ?
 * windows7Magnifier, config validation routine rewrite requested (NvDA core #3632).
 * bit che, provide for translation.
-* dropbox ?
-* ReadFeeds, provide for translators.
-* googleSpeechRecognition, ?
+* dropbox, checking with author for outstanding changes, otherwise ready for stable release.
+* ReadFeeds, waiting for translations.
+* googleSpeechRecognition, waiting for translations.
+* emoticons, waiting for translations.
 * controlUsageAssistant, ?
 * VirtualRevision, fix newline problem, make available for translators.
 * Instant translate, addon template, make available for translators.
