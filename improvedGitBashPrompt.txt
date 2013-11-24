@@ -13,20 +13,20 @@ reminded of what branch we are working on, and will save us from typing git bran
 but by alt+space, then arrow to edit menu, paste submenu item). It will
 download the file and bring you back to the prompt.
 
-    curl https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh 
+curl https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 
 3. paste the following line and press enter, it shouldn't say anything,
 just bring you back to the prompt.
 
-    echo 'source ~/.git-prompt.sh' >>~/.bashrc
+echo 'source ~/.git-prompt.sh' >>~/.bashrc
 
 4. at the prompt type:
 
-    cd ~
+cd ~
 
 5. type:
 
-    pwd
+pwd
 
 6. it should have printed something like /c/users/YourUserName if you
 are on windows 7.
@@ -34,6 +34,7 @@ using explorer navigate to that directory.
 if you have explorer set to show hidden files then you should be able to
 find a file called .bashrc
 (dot bashrc incase your nvda punctuation isnt set to all)
+if you don't find it, look in Git installation directory, and copy .bashrc file to directory written above
 
 7. open that file with notepad plus plus
 
@@ -41,16 +42,16 @@ find a file called .bashrc
 
 9. paste the following line:
 
-    export PS1='[\w$(__git_ps1)]$ '
+export PS1='[\w$(__git_ps1)]$ '
 
 10. save and exit, and restart your git bash. your prompt should be
 something like:
 
-    [~]$ 
+[~]$
 
 when you go to a git repo your prompt changes to:
 
-    [~/addons/addonTemplate(master)]$
+[~/addons/addonTemplate(master)]$
 
 and if you change branch the part in the round brackets will change to
 reflect your new working area.
