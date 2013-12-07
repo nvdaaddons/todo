@@ -8,7 +8,7 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 Pending review/action:
 * Goldwave: ?
 * windows7Magnifier, config validation routine rewrite requested (NvDA core #3632).
-* bit che, provide for translation.
+* bit che, wait for translators.
 * dropbox, checking with author for outstanding changes, otherwise ready for stable release.
 * controlUsageAssistant, ?
 * VirtualRevision, fix newline problem, make available for translators.
