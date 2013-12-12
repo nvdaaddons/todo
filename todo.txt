@@ -5,6 +5,8 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
 
+* Create an add-on development guide, which will serve as an extension of NvDA core Development Guide but designed for writing add-ons.
+
 Pending review/action:
 * Goldwave: ?
 * windows7Magnifier, config validation routine rewrite requested (NvDA core #3632).
