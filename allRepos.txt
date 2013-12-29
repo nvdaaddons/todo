@@ -56,9 +56,7 @@ Now we need to tell mr to trust this downloaded config and run it.
     echo `pwd`/.mrconfig >>~/.mrtrust
     echo "[`pwd`]" >>~/.mrconfig
     echo "chain = true" >>~/.mrconfig
-    echo "update = echo" >>~/.mrconfig
-    echo "checkout = echo" >>~/.mrconfig
-
+    
 ### Using mr ###
 
 now running mr update anywhere should update your enabled repos, or if you are already inside a git repo it will update just this repo.
