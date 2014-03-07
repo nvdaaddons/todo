@@ -5,6 +5,7 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
 
+* Refactor how SCons script generates add-on documentation based on recent comments in NVDA core ticket 2694.
 * Create an add-on development guide, which will serve as an extension of NvDA core Development Guide but designed for writing add-ons.
 
 Pending review/action:
