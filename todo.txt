@@ -15,7 +15,7 @@ Pending review/action:
 * dropbox, checking with author for outstanding changes, otherwise ready for stable release.
 * controlUsageAssistant, ?
 * VirtualRevision, fix newline problem, make available for translators.
-* Instant translate, addon template, make available for translators.
+* Instant translate, Needs english language changes, make available for translators.
 * systraylist, Rui fixed a bug, what was it/needs documenting?
 * Tree View Navigation (for users) vs TreeSpy /(for developers)
     https://ABuffEr@bitbucket.org/ABuffEr/treeviewnavigation.git
