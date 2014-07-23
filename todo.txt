@@ -5,12 +5,13 @@ bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
 
+* T2694: remove documentation generation routine from SCons once NVDA 2014.3 is released.
 * Resolve differences between add-on guidelines and review process document.
 * Refactor how SCons script generates add-on documentation based on recent comments in NVDA core ticket 2694.
-* Create an add-on development guide, which will serve as an extension of NvDA core Development Guide but designed for writing add-ons.
 
 Pending review/action:
-* Goldwave: ?
+* StationPlaylist: Merge new messages and readme from translators.
+* Goldwave: Further testing with GoldWave 6 needed.
 * windows7Magnifier, config validation routine rewrite requested (NvDA core #3632).
 * bit che, wait for translators.
 * dropbox, checking with author for outstanding changes, otherwise ready for stable release.
@@ -50,6 +51,7 @@ Pending review/action:
 
 # Historical/notes #
 
+* Create an add-on development guide, which will serve as an extension of NvDA core Development Guide but designed for writing add-ons.
 * Script category: use NVDA core categories if an add-on enhances the functionality of NVDA such as adding shortcuts to preferences dialogs; use add-on name if the add-on adds misc features such as system information.
 * document where the prefered path of addon config files should be saved in guidelines document.
 The new path allows for addons to be used while running temp copy of nvda or something like that.
