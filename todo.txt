@@ -4,6 +4,7 @@ in the following:
 bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
+@Alberto: add a guide for  your batch files in allrepos.txt
 
 * Blacklisted add-ons: File Reader, causing NVDA to not exit.
 * Resolve differences between add-on guidelines and review process document.
