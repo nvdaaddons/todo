@@ -14,7 +14,6 @@ Pending review/action:
 * StationPlaylist: Merge new messages and readme from translators.
 * Goldwave: Further testing with GoldWave 6 needed.
 * windows7Magnifier, config validation routine rewrite requested (NvDA core #3632).
-* bit che, wait for translators.
 * dropbox, checking with author for outstanding changes, otherwise ready for stable release.
 * controlUsageAssistant, ?
 * VirtualRevision, fix newline problem, make available for translators.
