@@ -51,15 +51,13 @@ Navigate to the directory using the cygwin or git bash terminal, and clone the a
 
     git clone https://bitbucket.org/nvdaaddonteam/nvda-mrconfig .
 
-Now we need to tell mr to trust this downloaded config and run it.
+Now we need to tell mr to trust this downloaded config.
 
     echo `pwd`/.mrconfig >>~/.mrtrust
-    echo "[`pwd`]" >>~/.mrconfig
-    echo "chain = true" >>~/.mrconfig
     
 ### Using mr ###
 
-now running mr update anywhere should update your enabled repos, or if you are already inside a git repo it will update just this repo.
+now running mr update inside your nvdaSources directory should update your enabled repos, or if you are already inside a git repo it will update just this repo.
 For more information, read the mr perl script, which is well documented.
 The mr home page is: http://myrepos.branchable.com/
 
