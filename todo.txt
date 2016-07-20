@@ -4,6 +4,9 @@ in the following:
 bitNVDA=http://bitbucket.org/nvdaaddonteam
 
 # outstanding #
+* Major overhaul of mrconfig needed due to changes to Bitbucket Cloud that prevents new repos from being created unless a project name is given, use of GitHub and among other reasons.
+* If possible, switch from Bitbucket to GitHub, with authors encouraged to maintain their own add-ons.
+
 @Alberto: add a guide for  your batch files in allrepos.txt
 
 * Blacklisted add-ons: File Reader, causing NVDA to not exit.
